@@ -1,0 +1,164 @@
+	<html>
+	<head>
+	<title>hello</title>
+	<link rel="stylesheet" type="text/css" href="e.css">
+	<script type="text/javascript">
+	function mouseOver()
+{
+document.getElementById('b1').src ="img/生活.jpg"
+
+}
+	function mouseOut()
+	{
+		document.getElementById('b1').src ="img/生活1.jpg"
+		
+	}
+
+
+
+function mouseOver1()
+{
+document.getElementById('b2').src ="img/index1.jpg"
+
+
+}
+	function mouseOut1()
+	{
+		document.getElementById('b2').src ="img/index.jpg"
+		
+	}
+
+
+
+	function mouseOver2()
+{
+document.getElementById('b3').src ="img/学习.jpg"
+
+
+}
+	function mouseOut2()
+	{
+		document.getElementById('b3').src ="img/学习1.jpg"
+		
+	}
+
+	function mouseOver3()
+{
+document.getElementById('b4').src ="img/发现.jpg"
+
+
+}
+	function mouseOut3()
+	{
+		document.getElementById('b4').src ="img/推荐1.jpg"
+		
+	}
+
+
+</script>
+
+</head>
+
+<!-- 	/*function init()
+{
+	if (document.getElementById)
+		var x = document.getElementById('mouseovers').getElementsByTagName('IMG');
+	else if (document.all)
+		var x = document.all['mouseovers'].all.tags('IMG');
+	else return;
+	var preloads = new Object();
+	for (var i=0;i<x.length;i++)
+	{
+		preloads['n'+x[i].id] = new Image;
+		preloads['n'+x[i].id].src = 'img/'+ x[i].id + '_nrm.jpg';
+		preloads['o'+x[i].id] = new Image;
+		preloads['o'+x[i].id].src = 'img/'+ x[i].id + '_omo.jpg';
+		preloads['o'+x[i].id].onerror = function () {this.src='img/default.gif'}
+		x[i].onmouseover = function () {this.src=preloads['o'+this.id].src;}
+		x[i].onmouseout = function () {this.src=preloads['n'+this.id].src;}
+	}
+}*/
+	</script>
+	</head> -->
+	<body>
+	<div id ="main">
+<div class ="banner">
+	<ul>
+	<li>
+		<a>
+			<img src="./img/1.jpg" >
+		</a>
+	</li>
+	<li>
+		<a>
+			<img src="./img/2.jpg">
+		</a>
+	</li>
+	<li>
+		<a>
+			<img src="./img/3.jpg">
+		</a>
+	</li>
+	<li>
+		<a>
+			<img src="./img/4.jpg">
+		</a>
+	</li>
+	</ul>
+</div>	
+	<div class="banner">
+<ul>
+	<li id= "li001">
+		<a>
+			<a href="index.html" onmouseover="mouseOver1()" onmouseout="mouseOut1()" >
+			<img alt="life" src="./img/index.jpg" id = "b2" />
+		</a>
+	</li>
+	<li>
+		<a>
+			<a href="life.html" onmouseover="mouseOver()" onmouseout="mouseOut()">
+			<img alt="life" src="./img/生活1.jpg"  id = "b1" />
+		</a>
+	</li>
+	<li>
+		<a>
+			<a href="study.html" onmouseover="mouseOver2()" onmouseout="mouseOut2()" >
+			<img alt="life" src="./img/学习1.jpg" id = "b3" />
+		</a>
+	</li>
+	<li>
+		<a>
+			<a href="find.html" onmouseover="mouseOver3()" onmouseout="mouseOut3()" >
+			<img alt="fine" src="./img/推荐1.jpg" id = "b4" />
+		</a>
+	</li>
+	</ul>
+		</div>
+			<div id ="left1">
+		
+
+					
+
+
+
+
+
+
+
+
+
+	</div>
+	<div id ="right1">
+		<a>聚焦</a>
+	</div>
+	<div id ="left2">
+		<a>生活</a>
+	</div>
+	<div id ="right2">
+		<a >学习</a>
+	</div>
+	<div id ="xiaoxun"></div>
+	
+	<div id ="bottom"></div>
+	</body>
+	</html>
