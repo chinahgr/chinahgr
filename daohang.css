@@ -98,3 +98,21 @@ body {
   background: #c6342e;
   border-radius: 100%; 
 }
+.content{
+  border: dashed;
+  border-color:#0066FF;
+  border-width: 1px;
+  height: 1000px;
+  width: 960px;
+  margin: auto;
+  /*属性顺序错误会导致边框颜色失败*/
+}
+.inside{
+  border: dashed;
+  border-color: #33CC33;         
+  border-width: 1px;
+  width: 900px;
+  height:900px;
+  margin: auto;
+  margin-top:10px;
+}

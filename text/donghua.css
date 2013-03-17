@@ -1,0 +1,30 @@
+/*.area1{
+	height: 520px;
+	width: 590px;
+	background-color: red;
+}*/
+.area1{
+	
+	
+	margin: 0px;
+	-webkit-animation-name:farea1;
+	-webkit-animation-duration:10s;
+	-webkit-animation-direction: alternate;
+}
+@-webkit-keyframes farea1{
+	50%{
+		height: 120px;
+	width: 120px;
+		margin: 159px;
+		background-color: blue;
+		width: 20px;
+	}
+	/*70%{
+		background-color: green;
+	}*/
+	100% {
+        margin: 100px;
+        background: red;
+        -webkit-border-radius:100%;
+     }
+}
